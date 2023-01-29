@@ -16,5 +16,13 @@ if (number1 > number2)
 } 
 else number = number2;
 {
-    Console.WriteLine($"number = {number1} > {number2}");
+
+}
+if (number2 > number1)
+{
+   number = number2;
+} 
+else number = number1;
+{
+    Console.WriteLine($"Результат сравнения: {number} > {number}");
 }
