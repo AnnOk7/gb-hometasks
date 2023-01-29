@@ -2,16 +2,19 @@
 
 Console.Clear();
 
+Console.Write("Введите первое число: ");
 
 int number1 = int.Parse(Console.ReadLine()!);
 
 Console.Write("Введите второе число: ");
 int number2 = int.Parse(Console.ReadLine()!);
+int number;
 
-if (number = number1 > number2);
-
-    Console.WriteLine($"Число {number1} > {number2}");
-
-else (number = number2 > number1);
-
-    Console.WriteLine($"Число {number2} > {number1}");
+if (number1 > number2)
+{
+   number = number1;
+} 
+else number = number2;
+{
+    Console.WriteLine($"number = {number1} > {number2}");
+}
